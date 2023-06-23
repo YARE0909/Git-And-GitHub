@@ -234,7 +234,7 @@ git stash pop
 	On the other hand, if you've published the work, you probably don't want to reset the branch, since that's effectively rewriting history. In that case, you could indeed revert the commits. With Git, revert has a very specific meaning: create a commit with the reverse patch to cancel it out. This way you don't rewrite any history.
 	
 ```bash
-git revert --no-commit 0766c053..HEAD // here 0766c053 is the commit ID replace it with                                          the commit you wanna revert to
+git revert --no-commit 0766c053..HEAD // here 0766c053 is the commit ID replace it with the commit you wanna revert to
 ```
 
 
